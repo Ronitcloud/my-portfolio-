@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(111, 162, 198);
+  background-image: url("bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(59, 24, 157);
+    position: absolut;
+    width: 100%;
+}
+/*nav ul {
+  background-color: rgb(223, 215, 219);
+}*/
+
+
+#typed-text {
+  font-size: 24px;
+  margin: 20px 0;
+  color: aliceblue;
+}
+
+
+h1 {
+  margin: 0;
+    padding: 50px;
+    font-size: 240%;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+p {
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  line-height: 1.5;
+  margin-bottom: 55px;
+  color: yellowgreen;
+  font: 1em sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 800px;
+  padding: 20px;
+}
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #f50e0e;
+  padding: 5px;
+}
+
+/* Links */
+a {
+  color: #f30635;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #15ab76;
+}
+section{
+  padding: 100px 0;
+}
+
+.contact-form{
+  width: 660%;
+  margin: 0 auto;
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+} 
+textarea{
+  height: 100%;
+}
+input[type=checkbox]{
+  margin: 10px 5px 10px 5px;
+}
+input[type="submit"]:hover {
+  background-color: #98791c;
+  cursor: pointer; 
+}
